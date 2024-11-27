@@ -1,0 +1,11 @@
+body {
+    background-image:  url('https://static.vecteezy.com/system/resources/previews/011/572/961/large_2x/cute-cartoon-bear-illustration-seamless-pattern-free-vector.jpg');
+    background-color: rgba(255, 255, 255, 0.2);
+ }
+h2 {
+    color: rgb(4, 35, 54)
+}
+img {
+    width: 100px;
+    height: 100px;
+}

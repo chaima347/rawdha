@@ -1,0 +1,9 @@
+.custom-footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-navbar {
+    background-color: blue;
+  }
+  .custom-navbar .nav-link,
+  .custom-navbar .navbar-brand,
+  .custom-navbar .navbar-toggler-icon {
+    color: white;
+  }
+  .container-flex {
+    flex: 1;
+  }
+  .custom-footer {
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }

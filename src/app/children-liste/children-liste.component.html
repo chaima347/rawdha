@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الاطفال</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-right mb-4">قائمة الاطفال</h2>
+   
+        <table class="table table-bordered table-hover border-drak">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">صورة</th>
+                    <th scope="col">المعرف</th>
+                    <th scope="col">الاسم</th>
+                    <th scope="col">اللقب</th>
+                    <th scope="col">رقم هاتف الولي</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let child of children">
+                    <th scope="row"><img src="https://picsum.photos/200/300" class="img-fluid" alt=""></th>
+                    <th scope="row">{{child.id}}</th>
+                    <td>{{child.firstname}}</td>
+                    <td>{{child.lastname}}</td>
+                    <td>{{child.parent_phone}}</td>
+                    <td>
+                        <button type="button" class="btn btn-success m-1">تعديل</button>
+                        <button type="button" class="btn btn-danger m-1">حذف</button>
+                        <button type="button" class="btn btn-info m-1"> تفاصيل حصة اليوم</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-success col-10" type="button" [routerLink]="['/child']">اظافة</button>
+          </div>
+    </div>
+    
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
