@@ -1,27 +1,49 @@
-# Rawdha
+# Rawdha - Kindergarten Management Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+**Rawdha** is a user-friendly website designed to streamline the management of kindergarten activities, enhancing communication between administrators, teachers, and parents. The platform offers a modern interface to handle daily tasks, track progress, and share updates.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Administration Management**
+  - Add, edit, and manage staff and student profiles.
+  - Efficient scheduling of classes and activities.
 
-## Code scaffolding
+- **Teacher Tools**
+  - Track student attendance and academic progress.
+  - Share daily activities, reports, and updates with parents.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Parent Portal**
+  - View child’s progress and daily updates.
+  - Communicate directly with teachers and administrators.
 
-## Build
+- **Notification System**
+  - Send real-time alerts for announcements and reminders.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- **Frontend**: 
+  - HTML, CSS, and JavaScript for responsive and interactive design.
+  - Angular (or React.js) for dynamic web pages.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Backend**:
+  - Node.js with Express for API development.
+  - MongoDB for efficient data storage and retrieval.
 
-## Running end-to-end tests
+- **Authentication**:
+  - Secure login for administrators, teachers, and parents.
+  - Role-based access control to ensure data privacy.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Folder Structure
 
-## Further help
+- `src/components/`: Reusable UI components for various functionalities.
+- `src/pages/`: Main pages for the platform (e.g., Dashboard, Login, Profile).
+- `src/services/`: API service files for backend interaction.
+- `src/styles/`: Custom styles for a modern user experience.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+We extend our gratitude to educators and parents who provided valuable feedback during the development of **Rawdha**. This platform aims to create a seamless and engaging experience for managing kindergarten activities.
